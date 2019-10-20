@@ -5,6 +5,8 @@
 #include "Line.hpp"
 #include "PolylineCollection.hpp"
 #include "clipper.hpp"
+#include <boost/log/trivial.hpp>
+#include <numeric>
 #include <algorithm>
 #include <cassert>
 #include <cmath>

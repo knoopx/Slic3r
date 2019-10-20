@@ -14,7 +14,7 @@ add_subdirectory(qhull)
 add_subdirectory(Shiny)
 add_subdirectory(semver)
 add_subdirectory(libigl)
-add_subdirectory(test)
+#add_subdirectory(test)
 
 # Adding libnest2d project for bin packing...
 set(LIBNEST2D_UNITTESTS ON CACHE BOOL "Force generating unittests for libnest2d")
